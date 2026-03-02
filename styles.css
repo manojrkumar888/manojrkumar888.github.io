@@ -1,15 +1,15 @@
 :root {
-  --page-bg: #efe0c9;
-  --page-bg-soft: #e6d3b9;
-  --surface: #f8f1e6;
-  --surface-strong: #fffaf2;
-  --ink: #211a14;
-  --muted: #6a6056;
-  --line: #d9c7ad;
-  --line-strong: #bda98f;
-  --accent: #b87736;
-  --accent-dark: #8f5726;
-  --shadow: 0 24px 52px rgba(67, 48, 27, 0.14);
+  --page-bg: #d9e5f2;
+  --page-bg-soft: #c7d7e8;
+  --surface: #edf3fa;
+  --surface-strong: #f8fbff;
+  --ink: #162231;
+  --muted: #4d6074;
+  --line: #bfd0e1;
+  --line-strong: #95aec8;
+  --accent: #0f8aa8;
+  --accent-dark: #136280;
+  --shadow: 0 24px 52px rgba(23, 40, 63, 0.14);
 }
 
 *,
@@ -30,9 +30,9 @@ body {
   color: var(--ink);
   line-height: 1.62;
   background:
-    radial-gradient(circle at 8% 8%, rgba(188, 145, 89, 0.2), transparent 36%),
-    radial-gradient(circle at 92% 12%, rgba(143, 114, 75, 0.15), transparent 38%),
-    linear-gradient(150deg, #f6eddc 0%, var(--page-bg) 46%, var(--page-bg-soft) 100%);
+    radial-gradient(circle at 10% 8%, rgba(25, 129, 176, 0.2), transparent 38%),
+    radial-gradient(circle at 88% 12%, rgba(20, 85, 132, 0.16), transparent 40%),
+    linear-gradient(148deg, #eef5fc 0%, var(--page-bg) 46%, var(--page-bg-soft) 100%);
   overflow-x: hidden;
 }
 
@@ -53,9 +53,9 @@ a {
   padding: 0.72rem 0.95rem;
   border-radius: 999px;
   border: 1px solid var(--line);
-  background: rgba(255, 249, 238, 0.86);
+  background: rgba(246, 251, 255, 0.86);
   backdrop-filter: blur(9px);
-  box-shadow: 0 10px 24px rgba(58, 42, 25, 0.09);
+  box-shadow: 0 10px 24px rgba(23, 40, 63, 0.1);
 }
 
 .brand {
@@ -75,7 +75,7 @@ a {
   color: #fff;
   font-size: 0.82rem;
   font-weight: 700;
-  background: linear-gradient(135deg, #be8a4d, #9e652d);
+  background: linear-gradient(135deg, #16a1c5, #0f6f90);
 }
 
 .brand-name {
@@ -148,8 +148,8 @@ a {
   border-radius: 1.6rem;
   box-shadow: var(--shadow);
   background:
-    linear-gradient(170deg, rgba(255, 252, 246, 0.9), rgba(248, 241, 229, 0.94)),
-    linear-gradient(100deg, rgba(174, 129, 78, 0.1), rgba(181, 149, 110, 0.07));
+    linear-gradient(170deg, rgba(251, 254, 255, 0.92), rgba(236, 244, 252, 0.96)),
+    linear-gradient(100deg, rgba(37, 130, 173, 0.09), rgba(26, 93, 140, 0.07));
   padding: clamp(1.2rem, 2.2vw, 2.2rem);
 }
 
@@ -228,7 +228,7 @@ h3 {
 .btn-primary {
   color: #fff;
   background: linear-gradient(135deg, var(--accent), var(--accent-dark));
-  box-shadow: 0 10px 24px rgba(129, 84, 39, 0.3);
+  box-shadow: 0 10px 24px rgba(16, 96, 131, 0.3);
 }
 
 .btn-ghost {
@@ -268,8 +268,8 @@ h3 {
   border: 1px solid rgba(255, 255, 255, 0.16);
   border-radius: 1.2rem;
   padding: 1.1rem;
-  background: linear-gradient(145deg, #3a220f, #5f3d1d 54%, #81562b);
-  color: #f9efe3;
+  background: linear-gradient(145deg, #0f2437, #183b57 54%, #1f4f73);
+  color: #e9f4ff;
 }
 
 .profile-card::before {
@@ -292,8 +292,8 @@ h3 {
   border: 2px solid rgba(255, 255, 255, 0.5);
   display: grid;
   place-items: center;
-  background: linear-gradient(160deg, #f3e4d4, #e2c4a4);
-  color: #5d3f24;
+  background: linear-gradient(160deg, #d8ebfb, #b9d8ef);
+  color: #1a425e;
   font-size: 2.95rem;
   font-family: "Fraunces", "Georgia", serif;
   font-weight: 700;
@@ -312,14 +312,14 @@ h3 {
   margin: 0;
   text-align: center;
   font-size: 1.58rem;
-  color: #fff2e2;
+  color: #f2f8ff;
 }
 
 .profile-role {
   position: relative;
   margin: 0.24rem 0 0;
   text-align: center;
-  color: #efd8bf;
+  color: #c9def2;
   font-weight: 600;
 }
 
@@ -327,7 +327,7 @@ h3 {
   position: relative;
   margin: 0.7rem 0 0;
   padding-left: 1.05rem;
-  color: #f1dfc9;
+  color: #d6e7f8;
 }
 
 .profile-list li + li {
@@ -446,7 +446,7 @@ h3 {
   font-size: 0.74rem;
   font-weight: 700;
   color: var(--accent-dark);
-  background: #fff;
+  background: #f6fbff;
   text-transform: uppercase;
   letter-spacing: 0.02em;
 }
@@ -465,7 +465,7 @@ h3 {
   width: 100%;
   height: 0.56rem;
   border-radius: 999px;
-  background: #e3d6c5;
+  background: #d4e3f2;
   overflow: hidden;
 }
 
@@ -487,8 +487,8 @@ h3 {
   border: 1px solid var(--line);
   border-radius: 999px;
   padding: 0.32rem 0.68rem;
-  background: #fff;
-  color: #3f3428;
+  background: #f6fbff;
+  color: #234059;
   font-weight: 600;
   font-size: 0.84rem;
 }
@@ -524,17 +524,31 @@ h3 {
 
 .reveal {
   opacity: 0;
-  transform: translateY(20px);
+  transform: translateY(20px) scale(0.985);
+  filter: blur(6px);
 }
 
 .reveal.visible {
-  animation: rise 620ms cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  animation: driftIn 760ms cubic-bezier(0.2, 0.74, 0.2, 1) forwards;
 }
 
-@keyframes rise {
-  to {
+@keyframes driftIn {
+  0% {
+    opacity: 0;
+    transform: translateY(22px) scale(0.985);
+    filter: blur(6px);
+  }
+
+  65% {
+    opacity: 1;
+    transform: translateY(-2px) scale(1.002);
+    filter: blur(0);
+  }
+
+  100% {
     opacity: 1;
     transform: translateY(0);
+    filter: blur(0);
   }
 }
 
