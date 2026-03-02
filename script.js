@@ -28,7 +28,7 @@ if ("IntersectionObserver" in window && revealElements.length) {
   );
 
   revealElements.forEach((el, index) => {
-    el.style.animationDelay = `${index * 90}ms`;
+    el.style.animationDelay = `${80 + index * 70}ms`;
     revealObserver.observe(el);
   });
 } else {
